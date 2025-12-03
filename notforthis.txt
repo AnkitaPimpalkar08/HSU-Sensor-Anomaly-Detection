@@ -1,0 +1,12 @@
+For Level 2 (level2_monitor_email.py):
+bash# Install RPi.GPIO
+pip3 install RPi.GPIO --break-system-packages
+For Level 3 (level3_auto_pump.py):
+bash# Install RPi.GPIO (if not already installed)
+pip3 install RPi.GPIO --break-system-packages
+
+# Install Flask (for web dashboard)
+pip3 install Flask --break-system-packages
+Complete Setup Commands:
+bash# Install all dependencies at once (for both scripts)
+pip3 install RPi.GPIO Flask --break-system-packages
