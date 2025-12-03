@@ -10,3 +10,13 @@ pip3 install Flask --break-system-packages
 Complete Setup Commands:
 bash# Install all dependencies at once (for both scripts)
 pip3 install RPi.GPIO Flask --break-system-packages
+
+
+Step 1: Go to https://myaccount.google.com/apppasswords
+Step 2: If you see "App passwords aren't available" - you need to enable 2-Step Verification first:
+        → Go to https://myaccount.google.com/security
+        → Turn on "2-Step Verification"
+        → Then go back to App Passwords
+Step 3: Select "Mail" and "Other (Custom name)" → Type "Raspberry Pi"
+Step 4: Click "Generate"
+Step 5: Copy the 16-character password (like: abcdefghijklmnop)
